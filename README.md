@@ -117,3 +117,16 @@ Official references: https://github.com/CTFd/ctfcli and https://docs.ctfd.io/doc
 ## Flags to Futures CTF workshop website
 
 This repository also includes a static GitHub Pages website at `index.html`, with copy-and-paste VM commands, the 20-challenge browser, and instructor-friendly downloads. See `GITHUB_PAGES_GUIDE.md` for publication steps. Instructor solutions are intentionally included for this training collection.
+
+## Create-your-own challenge tutorial
+
+Open [Create Challenges](create-challenges.html) for manual creation steps and five complete copy-ready examples. The tutorial includes descriptions, flags, hints, solutions, and instructions for testing in a Firefox Private Window.
+
+## Create-your-own challenge tutorial
+
+Open [Create Challenges](create-challenges.html) for manual creation steps and five complete copy-ready examples. The tutorial includes descriptions, flags, hints, solutions, and instructions for testing in a Firefox Private Window.
+
+
+## Modern Flags to Futures visuals
+
+The website and CTFd homepage use the progression **Flags → Books → Diploma** to represent engagement, learning, and future opportunities. Brand artwork is in `assets/flags-books-diploma-logo.png`; a compact icon is in `assets/favicon.svg`. The matching SIGCITE slide deck is delivered separately so the static web repository stays lightweight.

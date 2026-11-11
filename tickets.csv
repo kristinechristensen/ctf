@@ -1,6 +1,0 @@
-ticket_id,affected_users,service,impact,urgency,notes
-HD-104,1,Printer,Low,Low,Paper jam
-HD-105,12,WiFi,Medium,Medium,One classroom
-HD-106,1800,Learning Management System,Critical,High,Login unavailable campus-wide
-HD-107,2,Spreadsheet,Low,Medium,File formatting
-HD-108,40,Lab projector,Medium,Low,Replacement needed

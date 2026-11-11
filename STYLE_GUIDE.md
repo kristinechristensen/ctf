@@ -37,3 +37,10 @@ Try the Challenge → Discover What You Enjoy → Connect to a Role → Explore 
 
 ## Technical note
 Do not place CTFd administrator API tokens in this public GitHub repository or within GitHub Pages JavaScript. Instructor solutions are intentionally included for this demonstration collection. Replace flags for graded classroom competitions.
+
+
+## 2026 modern logo update
+
+The primary mark is `assets/flags-books-diploma-logo.png`, featuring a coding flag, stacked books, and diploma along a rising teal pathway. This is the participant-selected mark and intentionally contains no photographs or student figures. `assets/favicon.svg` provides a compact icon for browser tabs.
+
+The three phases are **Solve challenges → Build knowledge → Explore futures**. The palette is navy `#0C1430`, violet `#8655E6`, turquoise `#48D9CB`, gold `#F8C453`, and near-white `#F8FAFF`. Use bright text against dark backgrounds, visible focus rings, and do not rely solely on color to communicate progress.

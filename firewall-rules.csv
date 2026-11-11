@@ -1,5 +1,0 @@
-rule,source,destination_port,action
-1,10.20.30.0/24,22,ALLOW
-2,10.20.30.0/24,443,DROP
-3,0.0.0.0/0,443,ALLOW
-4,0.0.0.0/0,*,DROP

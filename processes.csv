@@ -1,6 +1,0 @@
-pid,user,command,cpu_percent,mem_percent
-101,root,systemd,0.1,0.3
-442,postgres,postgres,12.5,18.2
-731,www-data,python3 report_worker.py,91.7,21.1
-905,root,sshd,0.2,0.4
-1102,www-data,nginx,7.4,5.5

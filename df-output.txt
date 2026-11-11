@@ -1,5 +1,0 @@
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/vda1        50G   22G   26G  46% /
-/dev/vdb1        20G   19G  500M  98% /var
-tmpfs           2.0G  4.0M  2.0G   1% /run
-/dev/vdc1       100G   41G   54G  44% /home

@@ -1,6 +1,0 @@
-$ ping -c 2 192.168.10.50
-2 packets transmitted, 2 received
-$ nc -zv 192.168.10.50 80
-Connection to 192.168.10.50 80 port [tcp/http] succeeded!
-$ nc -zv 192.168.10.50 443
-nc: connect to 192.168.10.50 port 443 (tcp) failed: Connection refused

@@ -1,6 +1,0 @@
-backup_id,time,status,type
-BKP-301,08:00,SUCCESS,full
-BKP-302,12:00,SUCCESS,incremental
-BKP-303,14:15,FAILED,incremental
-BKP-304,14:30,SUCCESS,incremental
-BKP-305,14:50,SUCCESS,incremental
