@@ -1,3 +1,15 @@
+# Flags to Futures
+
+**Build. Play. Teach. Inspire.**
+
+Hands-on CTFd educator toolkit based on *From Setup to Student Engagement: A Hands-On CTFd Tutorial for Cybersecurity, IT, and Computer Science* (SIGCITE 2026).
+
+**Website:** https://kristinechristensen.github.io/ctf/  
+**Style guide:** [style-guide.html](style-guide.html) and [STYLE_GUIDE.md](STYLE_GUIDE.md)  
+**CTFd homepage:** [ctfd/](ctfd/)  
+
+> This is a practice collection. Instructor flags and solutions are deliberately visible. Change flags before using for graded assignments. Never commit API tokens.
+
 # Faculty CTFd Challenge Library: 20 Challenges
 
 A GitHub-ready, editable collection of **20 classroom CTFd challenges**: 7 general IT, 7 networking, 6 computer science (3 Python and 3 Rust). Each challenge includes a `challenge.yml` specification, student evidence/starter file under `dist/`, a zero-cost hint, and an instructor solution under `writeup/SOLUTION.md`.
@@ -19,16 +31,16 @@ See `CHALLENGE_INDEX.csv` for the full inventory.
 ## Publish to GitHub
 
 1. Unzip the project.
-2. Create an empty GitHub repository (for example `faculty-ctfd-challenges`).
+2. Use the existing repository at `https://github.com/kristinechristensen/ctf`.
 3. In a terminal inside this project folder:
 
 ```bash
-git init
+git clone https://github.com/kristinechristensen/ctf.git
+cd ctf
+# Copy the new site and challenge files into this clone
 git add .
-git commit -m "Add 20 CTFd faculty challenges"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/faculty-ctfd-challenges.git
-git push -u origin main
+git commit -m "Add Flags to Futures website and challenges"
+git push origin main
 ```
 
 Do not commit a `.ctf/config` containing your real CTFd API token; `.ctf/` is excluded by `.gitignore`. **This educational package deliberately includes answer flags and instructor solutions. Make the repository private if students should not see them.** A public GitHub repository is not suitable for keeping assessment answers secret. Consider using a private instructor repository and distributing only the `dist/` artifacts to students through CTFd.
@@ -39,7 +51,7 @@ Install and initialize `ctfcli` in this project directory:
 
 ```bash
 pipx install 'ctfcli==0.1.8'
-cd Faculty-CTFd-20-Challenges
+cd ctf
 ctf init
 ```
 
@@ -102,6 +114,6 @@ challenges/18-cs-rust-ownership/
 Official references: https://github.com/CTFd/ctfcli and https://docs.ctfd.io/docs/management/ctfcli/challenges/
 
 
-## Zero to Hero CTF workshop website
+## Flags to Futures CTF workshop website
 
 This repository also includes a static GitHub Pages website at `index.html`, with copy-and-paste VM commands, the 20-challenge browser, and instructor-friendly downloads. See `GITHUB_PAGES_GUIDE.md` for publication steps. Instructor solutions are intentionally included for this training collection.

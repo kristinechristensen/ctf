@@ -1,0 +1,35 @@
+name: 'Rust: Match the Status'
+author: Faculty CTF Workshop
+category: Computer Science / Rust
+description: '**Scenario**
+
+
+  A Rust program uses an enum and match expression to determine a device state.
+
+
+  **Your task**
+
+
+  Read or compile the program. Identify the final word printed and submit it as your flag.
+
+
+  Download and inspect the attached file. Do not include spaces outside your flag.'
+value: 100
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{critical}
+  data: case_sensitive
+files:
+- dist/status.rs
+hints:
+- content: Match arms are checked in order, including guards.
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- intermediate
+- computer-science

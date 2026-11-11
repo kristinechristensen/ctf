@@ -1,0 +1,35 @@
+name: Follow the Default Route
+author: Faculty CTF Workshop
+category: Networking
+description: '**Scenario**
+
+
+  A workstation must reach 203.0.113.9, which is outside its directly connected subnet.
+
+
+  **Your task**
+
+
+  Identify the default gateway IPv4 address used to forward the packet.
+
+
+  Download and inspect the attached file. Do not include spaces outside your flag.'
+value: 55
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{10.10.5.1}
+  data: case_sensitive
+files:
+- dist/routes.txt
+hints:
+- content: What gateway is listed next to destination 0.0.0.0?
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- intermediate
+- networking

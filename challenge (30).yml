@@ -1,0 +1,35 @@
+name: Same Subnet?
+author: Faculty CTF Workshop
+category: Networking
+description: '**Scenario**
+
+
+  You are assigning lab computers to 192.168.12.64/26. Determine the broadcast address for this subnet.
+
+
+  **Your task**
+
+
+  Submit the broadcast IPv4 address as your flag.
+
+
+  Download and inspect the attached file. Do not include spaces outside your flag.'
+value: 40
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{192.168.12.127}
+  data: case_sensitive
+files:
+- dist/addressing.txt
+hints:
+- content: Count 64 addresses starting at .64; the final address is the broadcast.
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- beginner
+- networking

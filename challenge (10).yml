@@ -1,0 +1,35 @@
+name: Configuration Drift
+author: Faculty CTF Workshop
+category: General IT
+description: '**Scenario**
+
+
+  An application started accepting insecure connections after an update. Compare the approved and current settings.
+
+
+  **Your task**
+
+
+  Identify the configuration KEY whose changed value allows HTTP without TLS. Submit the key name as your flag.
+
+
+  Download and inspect the attached file. Do not include spaces outside your flag.'
+value: 65
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{APP_TLS_REQUIRED}
+  data: case_sensitive
+files:
+- dist/config-diff.txt
+hints:
+- content: Look for a true/false change relating to encrypted traffic.
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- intermediate
+- general-it

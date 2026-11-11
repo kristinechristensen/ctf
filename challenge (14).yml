@@ -1,0 +1,35 @@
+name: 'Python: Count the Records'
+author: Faculty CTF Workshop
+category: Computer Science / Python
+description: '**Scenario**
+
+
+  A Python program should count active devices that require maintenance. Use the data file to compute the result.
+
+
+  **Your task**
+
+
+  Count the records with status ACTIVE and battery_percent less than 20. Submit the count as your flag.
+
+
+  Download and inspect the attached file. Do not include spaces outside your flag.'
+value: 85
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{4}
+  data: case_sensitive
+files:
+- dist/devices.csv
+hints:
+- content: Battery at exactly 20 does not satisfy less than 20.
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- intermediate
+- computer-science

@@ -1,0 +1,35 @@
+name: DNS Record Hunt
+author: Faculty CTF Workshop
+category: Networking
+description: '**Scenario**
+
+
+  A help desk receives a report that a web portal name resolves unexpectedly.
+
+
+  **Your task**
+
+
+  Examine the DNS output and submit the IPv4 address assigned to portal.example.edu by its A record.
+
+
+  Download and inspect the attached file. Do not include spaces outside your flag.'
+value: 45
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{192.0.2.44}
+  data: case_sensitive
+files:
+- dist/dns-output.txt
+hints:
+- content: Find the record with type A rather than AAAA, TXT, or MX.
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- beginner
+- networking

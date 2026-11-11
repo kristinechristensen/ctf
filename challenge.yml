@@ -1,0 +1,35 @@
+name: 'Python: Follow the Code'
+author: Faculty CTF Workshop
+category: Computer Science / Python
+description: '**Scenario**
+
+
+  A program uses a loop to update a running score. Analyze its output without changing the source code.
+
+
+  **Your task**
+
+
+  Download the Python program and determine the integer printed by the final print statement.
+
+
+  Download and inspect the attached file. Do not include spaces outside your flag.'
+value: 50
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{16}
+  data: case_sensitive
+files:
+- dist/trace.py
+hints:
+- content: Enumerate starts indexes at zero.
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- beginner
+- computer-science

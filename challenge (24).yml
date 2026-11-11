@@ -1,0 +1,36 @@
+name: The Missing Backup
+author: Faculty CTF Workshop
+category: General IT
+description: '**Scenario**
+
+
+  An accidental deletion occurred at 14:40. Policy requires restoring from the most recent successful backup taken
+  before that time.
+
+
+  **Your task**
+
+
+  Find the backup ID you should restore. Submit it as your flag.
+
+
+  Download and inspect the attached file. Do not include spaces outside your flag.'
+value: 55
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{BKP-304}
+  data: case_sensitive
+files:
+- dist/backups.csv
+hints:
+- content: A later backup is not necessarily valid for this recovery point.
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- intermediate
+- general-it
