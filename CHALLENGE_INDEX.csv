@@ -1,0 +1,21 @@
+Folder,Title,Category,Points,Difficulty,Evidence file,Learning objective
+01-it-ticket-triage,Help Desk: Ticket Triage,General IT,25,Beginner,tickets.csv,Prioritize urgent support requests using impact and urgency.
+02-it-disk-capacity,Disk Space Detective,General IT,35,Beginner,df-output.txt,Interpret disk usage and recognize dangerously full volumes.
+03-it-permissions,Permissions Puzzle,General IT,45,Intermediate,permissions.txt,Read Unix mode bits and convert them to octal notation.
+04-it-service-status,Service Won’t Start,General IT,50,Intermediate,service.log,Use service logs to identify the misconfigured path preventing startup.
+05-it-backup-restore,The Missing Backup,General IT,55,Intermediate,backups.csv,Match backup timestamps to a recovery-point objective.
+06-it-process-audit,Process Detective,General IT,60,Intermediate,processes.csv,Recognize CPU-heavy processes in a snapshot.
+07-it-config-compare,Configuration Drift,General IT,65,Intermediate,config-diff.txt,Spot a changed security-related configuration value.
+08-net-ip-subnet,Same Subnet?,Networking,40,Beginner,addressing.txt,Calculate IPv4 /26 network boundaries.
+09-net-dns-trace,DNS Record Hunt,Networking,45,Beginner,dns-output.txt,Identify a DNS A record and distinguish it from other record types.
+10-net-routing,Follow the Default Route,Networking,55,Intermediate,routes.txt,Interpret a routing table to determine next hop for external traffic.
+11-net-ports,Which Port Failed?,Networking,50,Beginner,connectivity.txt,Differentiate reachability from listening application ports.
+12-net-dhcp,DHCP Lease Inspector,Networking,60,Intermediate,dhcp-lease.txt,Inspect DHCP lease information to troubleshoot wrong network settings.
+13-net-firewall,Firewall Rule Review,Networking,70,Intermediate,firewall-rules.csv,Evaluate first-match firewall rule ordering.
+14-net-packet-analysis,Packet Trail,Networking,75,Intermediate,packets.csv,Correlate TCP ports with connection patterns in simplified packet evidence.
+15-cs-python-loop,Python: Follow the Code,Computer Science / Python,50,Beginner,trace.py,"Trace loops, enumerate, conditionals, and accumulators."
+16-cs-python-debug,Python: Repair the Average,Computer Science / Python,75,Intermediate,average_bug.py,Recognize integer truncation when calculating an average.
+17-cs-python-csv,Python: Count the Records,Computer Science / Python,85,Intermediate,devices.csv,Filter CSV rows based on multiple conditions.
+18-cs-rust-ownership,Rust: Who Owns the String?,Computer Science / Rust,90,Intermediate,ownership.rs,Recognize ownership transfer by move and borrowed references.
+19-cs-rust-iterator,Rust: Filter and Sum,Computer Science / Rust,95,Intermediate,filter_sum.rs,Understand iterator filtering and summing in Rust.
+20-cs-rust-pattern,Rust: Match the Status,Computer Science / Rust,100,Intermediate,status.rs,Trace enum pattern matching and state transitions.
