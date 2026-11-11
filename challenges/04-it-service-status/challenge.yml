@@ -1,0 +1,35 @@
+name: Service Won’t Start
+author: Faculty CTF Workshop
+category: General IT
+description: '**Scenario**
+
+
+  An application service fails immediately after a configuration change.
+
+
+  **Your task**
+
+
+  Read the service log and identify the missing configuration file path. Submit the full path as your flag.
+
+
+  Download and inspect the attached file. Do not include spaces outside your flag.'
+value: 50
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{/etc/campus/dashboard.yaml}
+  data: case_sensitive
+files:
+- dist/service.log
+hints:
+- content: Find the first ERROR line, not only the final service status.
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- intermediate
+- general-it

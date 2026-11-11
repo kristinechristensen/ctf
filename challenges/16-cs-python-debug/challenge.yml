@@ -1,0 +1,36 @@
+name: 'Python: Repair the Average'
+author: Faculty CTF Workshop
+category: Computer Science / Python
+description: '**Scenario**
+
+
+  A Python script calculates an average but unintentionally truncates it.
+
+
+  **Your task**
+
+
+  Inspect the script. Replace the buggy operator mentally or in a local copy, run it, and submit the corrected result
+  as a flag. Use one decimal place.
+
+
+  Download and inspect the attached file. Do not include spaces outside your flag.'
+value: 75
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{88.7}
+  data: case_sensitive
+files:
+- dist/average_bug.py
+hints:
+- content: Compare Python / and // operators.
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- intermediate
+- computer-science

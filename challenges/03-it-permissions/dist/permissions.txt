@@ -1,0 +1,4 @@
+File: deploy.sh | mode: -rwxr-xr-- | owner: appuser | group: devs
+File: notes.txt | mode: -rw-r----- | owner: appuser | group: devs
+File: backup.sh | mode: -rwx------ | owner: root | group: root
+File: public.txt | mode: -rw-r--r-- | owner: appuser | group: users

@@ -1,0 +1,35 @@
+name: DHCP Lease Inspector
+author: Faculty CTF Workshop
+category: Networking
+description: '**Scenario**
+
+
+  One lab workstation receives an address from the guest subnet rather than the classroom subnet (10.50.20.0/24).
+
+
+  **Your task**
+
+
+  Identify the DHCP server IP address responsible for the incorrect guest lease.
+
+
+  Download and inspect the attached file. Do not include spaces outside your flag.'
+value: 60
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{172.16.90.5}
+  data: case_sensitive
+files:
+- dist/dhcp-lease.txt
+hints:
+- content: A default router and DHCP server are not necessarily the same device.
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- intermediate
+- networking

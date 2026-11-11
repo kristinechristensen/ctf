@@ -1,0 +1,35 @@
+name: 'Rust: Filter and Sum'
+author: Faculty CTF Workshop
+category: Computer Science / Rust
+description: '**Scenario**
+
+
+  A Rust program filters even integers and sums the remaining values.
+
+
+  **Your task**
+
+
+  Read or compile the Rust program. Submit the integer printed by the program as your flag.
+
+
+  Download and inspect the attached file. Do not include spaces outside your flag.'
+value: 95
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{30}
+  data: case_sensitive
+files:
+- dist/filter_sum.rs
+hints:
+- content: The filter keeps values for which n % 2 == 0.
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- intermediate
+- computer-science

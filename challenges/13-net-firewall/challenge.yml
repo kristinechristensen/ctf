@@ -1,0 +1,36 @@
+name: Firewall Rule Review
+author: Faculty CTF Workshop
+category: Networking
+description: '**Scenario**
+
+
+  An incoming HTTPS connection from 10.20.30.45 is being rejected. Rules are processed in listed order, using the
+  first matching rule.
+
+
+  **Your task**
+
+
+  Identify the rule number responsible for dropping this connection.
+
+
+  Download and inspect the attached file. Do not include spaces outside your flag.'
+value: 70
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{2}
+  data: case_sensitive
+files:
+- dist/firewall-rules.csv
+hints:
+- content: Earlier matching rules take precedence over later rules.
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- intermediate
+- networking

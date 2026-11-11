@@ -1,0 +1,5 @@
+; <<>> DiG <<>> portal.example.edu ANY
+portal.example.edu. 300 IN A 192.0.2.44
+portal.example.edu. 300 IN AAAA 2001:db8::44
+portal.example.edu. 300 IN TXT "owner=campus-it"
+example.edu. 3600 IN MX 10 mail.example.edu.

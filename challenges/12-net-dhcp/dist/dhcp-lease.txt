@@ -1,0 +1,8 @@
+lease {
+  interface "ens18";
+  fixed-address 172.16.90.118;
+  option subnet-mask 255.255.255.0;
+  option routers 172.16.90.1;
+  option dhcp-server-identifier 172.16.90.5;
+  option domain-name "guest.example.edu";
+}
