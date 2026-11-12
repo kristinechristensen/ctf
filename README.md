@@ -130,3 +130,13 @@ Open [Create Challenges](create-challenges.html) for manual creation steps and f
 ## Modern Flags to Futures visuals
 
 The website and CTFd homepage use the progression **Flags → Books → Diploma** to represent engagement, learning, and future opportunities. Brand artwork is in `assets/flags-books-diploma-logo.png`; a compact icon is in `assets/favicon.svg`. The matching SIGCITE slide deck is delivered separately so the static web repository stays lightweight.
+
+
+## Logo and homepage pathway refinements
+
+The hero logo uses `assets/flags-books-diploma-symbols.png` for the original flag, books and diploma illustration, and **live HTML text** for a crisp, scalable “Flags to Futures” wordmark. This removes the pixelated outline around the previous raster lettering. `site.css` styles the wordmark and displays the Challenges → Learning → Futures progression in a single row on desktop, wrapping to a vertical stack on small screens. The original logo PNG remains in `assets/` as an archival asset.
+
+
+## Navigation and numbering
+
+The homepage sections are numbered 01 through 08, without duplicates. The complete manual challenge-building walkthrough lives only at [`create-challenges.html`](create-challenges.html), linked from the navigation.
