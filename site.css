@@ -23,3 +23,19 @@ body{background:linear-gradient(180deg,#0C1430 0%,#101B38 42%,#0C142A 100%)}
 .panel,.challenge,.theme-step,.steps a{box-shadow:0 6px 30px #070C1C33}
 .panel:hover,.challenge:hover{border-color:#7D78C9}
 @media(max-width:700px){.hero-inner{grid-template-columns:1fr}.hero .mascot{max-width:310px;margin:auto}.learning-journey{display:grid;grid-template-columns:1fr}.journey-arrow{display:none}}
+
+/* 2026-11-11: crisp wordmark and horizontal learning pathway */
+.hero .modern-art{min-width:0;padding:24px 20px 25px;border:1px solid #61759c;border-radius:24px;background:linear-gradient(145deg,#111a34,#111c38);text-align:center;box-shadow:0 20px 45px #050d203d}
+.hero .hero-symbols{max-width:100%;margin:0 auto -2px}
+.hero .hero-symbols img{width:100%;max-height:275px;height:auto;object-fit:contain;display:block;border:0!important;background:transparent!important;filter:none!important;box-shadow:none!important}
+.hero .hero-wordmark{font-family:'Space Grotesk',system-ui,-apple-system,'Segoe UI',sans-serif;font-size:clamp(25px,2.6vw,40px);line-height:1.16;letter-spacing:-.048em;font-weight:800;color:#f5f8ff;white-space:nowrap;font-synthesis:none;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+.hero .hero-wordmark em{font-style:normal;color:#f3c567}
+.hero .hero-gold-swoosh{width:min(60%,220px);height:5px;border-radius:100%;background:#f3bd52;transform:rotate(-3deg);margin:10px auto 0}
+.learning-journey{display:grid!important;grid-template-columns:minmax(0,1fr) 30px minmax(0,1fr) 30px minmax(0,1fr)!important;align-items:stretch!important;gap:12px!important;width:min(100% - 40px,1200px);margin:28px auto 12px}
+.learning-journey>.journey-stage{min-width:0;padding:18px 20px!important;border:1px solid #4c658d!important;border-radius:15px;background:linear-gradient(125deg,#1a2c4a,#17213c);display:flex!important;flex-direction:column;gap:4px}
+.learning-journey>.journey-stage>span{font-size:12px;color:#5ce0db;letter-spacing:.13em;font-weight:800}
+.learning-journey>.journey-stage strong{font-size:19px;line-height:1.4;color:#fff;display:block;margin:0}
+.learning-journey>.journey-stage strong span{font-size:18px;letter-spacing:normal;color:inherit}
+.learning-journey>.journey-stage small{font-size:13px;line-height:1.5;color:#d4e0f2;display:block}
+.learning-journey>.journey-arrow{display:flex!important;align-items:center;justify-content:center;font-size:26px;color:#f8c453;align-self:stretch!important}
+@media(max-width:760px){.learning-journey{grid-template-columns:1fr!important;gap:8px!important}.learning-journey>.journey-arrow{transform:rotate(90deg);height:23px}.hero .modern-art{max-width:470px;margin:auto}.hero .hero-wordmark{font-size:clamp(26px,6vw,40px)}}

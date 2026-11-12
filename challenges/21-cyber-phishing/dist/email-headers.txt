@@ -1,0 +1,11 @@
+From: "Campus IT Support" <support@campus-help.example>
+Reply-To: helpdesk@campus-help.example
+Return-Path: <alerts@external-notices.example>
+Authentication-Results: mail.campus.example; spf=fail smtp.mailfrom=external-notices.example; dkim=none
+Subject: Action required: verify your campus account
+
+Message excerpt:
+Your mailbox will be suspended in 30 minutes. Verify immediately:
+https://verify-account.security-check.example/login
+
+IT directory reference: https://help.campus.example/account-support

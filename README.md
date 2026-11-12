@@ -10,9 +10,9 @@ Hands-on CTFd educator toolkit based on *From Setup to Student Engagement: A Han
 
 > This is a practice collection. Instructor flags and solutions are deliberately visible. Change flags before using for graded assignments. Never commit API tokens.
 
-# Faculty CTFd Challenge Library: 20 Challenges
+# Faculty CTFd Challenge Library: 25 Challenges
 
-A GitHub-ready, editable collection of **20 classroom CTFd challenges**: 7 general IT, 7 networking, 6 computer science (3 Python and 3 Rust). Each challenge includes a `challenge.yml` specification, student evidence/starter file under `dist/`, a zero-cost hint, and an instructor solution under `writeup/SOLUTION.md`.
+A GitHub-ready, editable collection of **25 classroom CTFd challenges**: 7 general IT, 7 networking, 5 cybersecurity, 6 computer science (3 Python and 3 Rust). Each challenge includes a `challenge.yml` specification, student evidence/starter file under `dist/`, a zero-cost hint, and an instructor solution under `writeup/SOLUTION.md`.
 
 **Status:** YAML and artifact consistency validated locally. The package has **not** been imported into a running CTFd instance in this environment. Verify with your installed ctfcli/CTFd versions on a clean test instance before using it in class.
 
@@ -24,7 +24,8 @@ A GitHub-ready, editable collection of **20 classroom CTFd challenges**: 7 gener
 | Networking | 7 | 395 |
 | Computer Science / Python | 3 | 210 |
 | Computer Science / Rust | 3 | 285 |
-| **Total** | **20** | **1225** |
+| Cybersecurity | 5 | 390 |
+| **Total** | **25** | **1615** |
 
 See `CHALLENGE_INDEX.csv` for the full inventory.
 
@@ -116,7 +117,7 @@ Official references: https://github.com/CTFd/ctfcli and https://docs.ctfd.io/doc
 
 ## Flags to Futures CTF workshop website
 
-This repository also includes a static GitHub Pages website at `index.html`, with copy-and-paste VM commands, the 20-challenge browser, and instructor-friendly downloads. See `GITHUB_PAGES_GUIDE.md` for publication steps. Instructor solutions are intentionally included for this training collection.
+This repository also includes a static GitHub Pages website at `index.html`, with copy-and-paste VM commands, the 25-challenge browser, and instructor-friendly downloads. See `GITHUB_PAGES_GUIDE.md` for publication steps. Instructor solutions are intentionally included for this training collection.
 
 ## Create-your-own challenge tutorial
 

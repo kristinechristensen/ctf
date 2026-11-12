@@ -1,0 +1,38 @@
+name: Phishing Email Investigation
+author: Flags to Futures Faculty Workshop
+category: Cybersecurity
+description: '**Scenario**
+
+
+  An employee receives a message claiming that the help desk needs an immediate password confirmation. Examine
+  the supplied mail headers and message excerpt.
+
+
+  **Your task**
+
+
+  Submit the exact hostname of the suspicious password-collection link using the format CTF{hostname}.
+
+
+  Download and inspect the attached file. This is a safe, offline evidence-analysis exercise.'
+value: 55
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{verify-account.security-check.example}
+  data: case_sensitive
+files:
+- dist/email-headers.txt
+hints:
+- content: Compare the sender, authentication results, and the link destination. Which hostname would receive
+    the password?
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- beginner
+- cybersecurity
+- offline-analysis

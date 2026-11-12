@@ -1,0 +1,7 @@
+Nov 11 09:00:12 lab sshd[2101]: Accepted publickey for instructor from 192.0.2.12 port 51822 ssh2
+Nov 11 09:02:18 lab sshd[2110]: Failed password for student from 203.0.113.77 port 45111 ssh2
+Nov 11 09:02:22 lab sshd[2113]: Failed password for student from 203.0.113.77 port 45113 ssh2
+Nov 11 09:02:26 lab sshd[2117]: Failed password for student from 203.0.113.77 port 45115 ssh2
+Nov 11 09:02:31 lab sshd[2120]: Accepted password for student from 203.0.113.77 port 45119 ssh2
+Nov 11 09:05:06 lab sshd[2151]: Failed password for admin from 198.51.100.42 port 50170 ssh2
+Nov 11 09:06:45 lab sshd[2180]: Accepted publickey for instructor from 192.0.2.12 port 51890 ssh2

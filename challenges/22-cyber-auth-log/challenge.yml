@@ -1,0 +1,37 @@
+name: Login Attack Detective
+author: Flags to Futures Faculty Workshop
+category: Cybersecurity
+description: '**Scenario**
+
+
+  A Linux server has multiple SSH authentication events. Security staff suspect that one external host tried
+  several passwords before getting in.
+
+
+  **Your task**
+
+
+  Identify the source IPv4 address associated with the repeated failures and later success. Submit CTF{IPv4-address}.
+
+
+  Download and inspect the attached file. This is a safe, offline evidence-analysis exercise.'
+value: 65
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{203.0.113.77}
+  data: case_sensitive
+files:
+- dist/auth.log
+hints:
+- content: Focus on the address that appears on several failed logins and then on a successful login.
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- beginner
+- cybersecurity
+- offline-analysis

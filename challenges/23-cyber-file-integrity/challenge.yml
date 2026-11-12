@@ -1,0 +1,38 @@
+name: File Integrity Check
+author: Flags to Futures Faculty Workshop
+category: Cybersecurity
+description: '**Scenario**
+
+
+  After a configuration change, an administrator compares baseline and current SHA-256 hashes for files on
+  a lab system.
+
+
+  **Your task**
+
+
+  Identify the filename that fails the integrity check. Submit CTF{filename}.
+
+
+  Download and inspect the attached file. This is a safe, offline evidence-analysis exercise.'
+value: 80
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{network-policy.json}
+  data: case_sensitive
+files:
+- dist/integrity-report.txt
+hints:
+- content: Look for the file whose recorded SHA-256 value differs between the approved baseline and the current
+    scan.
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- intermediate
+- cybersecurity
+- offline-analysis

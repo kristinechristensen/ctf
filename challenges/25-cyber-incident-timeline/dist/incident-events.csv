@@ -1,0 +1,8 @@
+event_id,timestamp_utc,source,account,action,notes
+EVT-101,2026-11-11T14:00:00Z,identity,student,login_success,Expected campus VPN login from managed device
+EVT-102,2026-11-11T14:02:00Z,endpoint,student,document_open,Class materials opened on managed device
+EVT-103,2026-11-11T14:03:20Z,identity,instructor,mfa_success,Routine instructor sign-in from managed device
+EVT-104,2026-11-11T14:04:18Z,identity,student,mfa_push_denied,Unexpected MFA push denied by user; source not recognized
+EVT-105,2026-11-11T14:04:25Z,identity,student,mfa_push_denied,Second unexpected MFA push denied by user
+EVT-106,2026-11-11T14:05:04Z,identity,student,login_blocked,Repeated MFA requests triggered risk policy
+EVT-107,2026-11-11T14:06:11Z,endpoint,student,alert_created,Security team alerted to unusual authentication activity

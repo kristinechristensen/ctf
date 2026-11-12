@@ -19,3 +19,8 @@ Folder,Title,Category,Points,Difficulty,Evidence file,Learning objective
 18-cs-rust-ownership,Rust: Who Owns the String?,Computer Science / Rust,90,Intermediate,ownership.rs,Recognize ownership transfer by move and borrowed references.
 19-cs-rust-iterator,Rust: Filter and Sum,Computer Science / Rust,95,Intermediate,filter_sum.rs,Understand iterator filtering and summing in Rust.
 20-cs-rust-pattern,Rust: Match the Status,Computer Science / Rust,100,Intermediate,status.rs,Trace enum pattern matching and state transitions.
+21-cyber-phishing,Phishing Email Investigation,Cybersecurity,55,Beginner,email-headers.txt,Inspect email headers and link destinations to identify a phishing domain.
+22-cyber-auth-log,Login Attack Detective,Cybersecurity,65,Beginner,auth.log,Identify a repeated failed-login source followed by a successful sign-in.
+23-cyber-file-integrity,File Integrity Check,Cybersecurity,80,Intermediate,integrity-report.txt,Compare SHA-256 checksums to identify a modified file in an incident package.
+24-cyber-web-logs,Suspicious Web Request,Cybersecurity,90,Intermediate,access.log,Spot a URL-encoded directory traversal attempt in web server access logs.
+25-cyber-incident-timeline,Incident Timeline: First Alert,Cybersecurity,100,Intermediate,incident-events.csv,"Correlate timestamps, user activity, and detection events to identify the first suspicious action."

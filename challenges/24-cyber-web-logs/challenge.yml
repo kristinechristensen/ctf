@@ -1,0 +1,37 @@
+name: Suspicious Web Request
+author: Flags to Futures Faculty Workshop
+category: Cybersecurity
+description: '**Scenario**
+
+
+  A web application logs its incoming HTTP requests. The security team wants to identify the client that attempted
+  directory traversal.
+
+
+  **Your task**
+
+
+  Find the source IP that sent the directory-traversal request. Submit CTF{IPv4-address}.
+
+
+  Download and inspect the attached file. This is a safe, offline evidence-analysis exercise.'
+value: 90
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{198.51.100.88}
+  data: case_sensitive
+files:
+- dist/access.log
+hints:
+- content: Look for encoded dot-dot segments such as `%2e%2e` in the request URL, not just HTTP error codes.
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- intermediate
+- cybersecurity
+- offline-analysis

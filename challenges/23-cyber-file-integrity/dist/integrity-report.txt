@@ -1,0 +1,6 @@
+SHA-256 file integrity report (training data)
+
+FILE                 APPROVED BASELINE                                                      CURRENT SCAN
+README.txt           319f67b82132115ec874896bf621f687c1dd49382e849570d0b4e22b5d62ea13 319f67b82132115ec874896bf621f687c1dd49382e849570d0b4e22b5d62ea13
+inventory.csv        4802e0944066e4c6f6b11f62e575b8ef400251bb96ea05b0fa3499d2a1ce799d 4802e0944066e4c6f6b11f62e575b8ef400251bb96ea05b0fa3499d2a1ce799d
+network-policy.json  2e3e53144105981b97268a7f28e12ef086c5eea30e3abcbf8408a339bb23b837 ba8b812d524014641f4e80deff1e88febb011c86d39bc5b86b5de9741eb03af9

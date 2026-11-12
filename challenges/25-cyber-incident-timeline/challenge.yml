@@ -1,0 +1,38 @@
+name: 'Incident Timeline: First Alert'
+author: Flags to Futures Faculty Workshop
+category: Cybersecurity
+description: '**Scenario**
+
+
+  Analysts combine endpoint and identity-provider alerts after a suspected credential compromise. The events
+  are already ordered by UTC time.
+
+
+  **Your task**
+
+
+  Identify the event ID for the FIRST suspicious security event, not the first event in the file. Submit CTF{event-ID}.
+
+
+  Download and inspect the attached file. This is a safe, offline evidence-analysis exercise.'
+value: 100
+type: standard
+state: visible
+version: '0.1'
+flags:
+- type: static
+  content: CTF{EVT-104}
+  data: case_sensitive
+files:
+- dist/incident-events.csv
+hints:
+- content: Use the event notes to distinguish ordinary access from the earliest suspicious action, then report
+    its event ID.
+  cost: 0
+solution:
+  path: writeup/SOLUTION.md
+  state: solved
+tags:
+- intermediate
+- cybersecurity
+- offline-analysis

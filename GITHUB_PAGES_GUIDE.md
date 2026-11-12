@@ -1,6 +1,6 @@
 # Publish Flags to Futures CTF on GitHub Pages
 
-This repository is a static website plus 20 challenge folders. No build system, Node.js, or hosting account beyond GitHub Pages is required.
+This repository is a static website plus 25 challenge folders. No build system, Node.js, or hosting account beyond GitHub Pages is required.
 
 ## Upload the repository
 
@@ -25,7 +25,7 @@ The Git clone command already points to `https://github.com/kristinechristensen/
 - `index.html`: website
 - `site.css`, `site.js`: styles and copy/search interactions
 - `assets/hero-mascot.png`, `assets/logo.svg`: illustrated hero and scalable logo
-- `assets/Faculty-CTFd-20-Challenges.zip`: direct-download challenge library
+- `assets/Faculty-CTFd-25-Challenges.zip`: direct-download challenge library
 - `assets/challenge-data.js`: searchable challenge inventory
 - `challenges/`: 20 configurations, evidence, instructor solutions
 - `README.md`: collection and ctfcli documentation
